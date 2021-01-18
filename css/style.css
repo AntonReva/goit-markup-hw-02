@@ -1,26 +1,19 @@
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
-  --accent-color: #2196F3;
+  --accent-color: #2196f3;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: var(--primary-text-color);
 }
 
-
-/*!!!!! ПАЛИТРА !!!!!
-
-цвет основного текста #212121
-вторичный цвет текста #1757575
-белый #ffffff
-акцент #2196F3
-
-!!!!! end ПАЛИТРА !!!!!*/
-
 /* <<<<<<<<<<<<  COMPONENTS  >>>>>>>>>>>> */
+.nav-link.active-link {
+  color: var(--accent-color);
+}
 ul {
   list-style: none;
 }
@@ -32,25 +25,26 @@ a {
 
 /* <<<<<<<<<<<<<<<<<<<<<<<< STUDIO  >>>>>>>>>>>>>>>>>>>>>>>> */
 /* <<<<<<<<<<<<  HEADER  >>>>>>>>>>>> */
-
 .nav-list a {
   color: var(--primary-text-color);
 }
-.nav-list a:hover, .nav-list a:focus {
+.nav-list a:hover,
+.nav-list a:focus {
   color: var(--accent-color);
 }
 
 .address-link {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.143;
-letter-spacing: 0.02em;
-color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
+
 .address-link:active,
 .address-link:hover,
 .address-link:focus {
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .header {
@@ -62,138 +56,148 @@ color: var(--title-text-color);
 }
 
 .hero-button {
-color:#FFFFFF;
-background: var(--accent-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.875;
-display: flex;
-letter-spacing: 0.06em;
-cursor: pointer;
+  color: #ffffff;
+  background: var(--accent-color);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
-.hero-button:hover, 
-.hero-button:focus, 
+.hero-button:hover,
+.hero-button:focus,
 .hero-buttom:active {
   background: #000000;
 }
-
-
-/* СДЕЛАТЬ КНОПКУ "СТУДИЯ" СИНЕЙ !!!!!!!!!!!!!!!!!!!!!!!!!!
 /* <<<<<<<<<<<<  end HEADER  >>>>>>>>>>>> */
 
 /* <<<<<<<<<<<< HERO  >>>>>>>>>>>> */
-
 .hero-section {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 .hero-title {
-font-weight: 900;
-font-size: 44px;
-line-height: 1.364;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 /* <<<<<<<<<<<< end HERO  >>>>>>>>>>>> */
 
 /* <<<<<<<<<<<<  OUR PRIORITY  >>>>>>>>>>>> */
-.priority-section {
-  background-color: #E5E5E5;
-}
 .priority-subtitle {
-font-weight: bold;
-font-size: 14px;
-line-height: 1.143;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
 }
 .priority-text {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-color: var(--title-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 /* <<<<<<<<<<<<  end OUR PRIORITY  >>>>>>>>>>>> */
 
 /* <<<<<<<<<<<<  WHAT A WE DOING  >>>>>>>>>>>> */
-.work-section {
-  background-color: #E5E5E5;
-}
 .work-title {
-font-weight: bold;
-font-size: 36px;
-line-height: 1.167;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 /* <<<<<<<<<<<<  end WHAT A WE DOING  >>>>>>>>>>>> */
 
 /* <<<<<<<<<<<<  OUR TEAM  >>>>>>>>>>>> */
-.team-section {
-  background-color: #F5F4FA;
-}
-.team-title { 
-font-weight: bold;
-font-size: 36px;
-line-height: 1.167;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .team-name {
   font-weight: 500;
-font-size: 16px;
-line-height: 1.188;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .team-text {
-font-weight: normal;
-font-size: 16px;
-line-height: 1.188;
-letter-spacing: 0.03em;
-color: var(--title-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 /* <<<<<<<<<<<<  end OUR TEAM  >>>>>>>>>>>> */
 
 /* <<<<<<<<<<<<  FOOTER  >>>>>>>>>>>> */
 .footer-section {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .footer-link-map {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .footer-link {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 /* <<<<<<<<<<<<  end FOOTER  >>>>>>>>>>>> */
 /* <<<<<<<<<<<<<<<<<<<<<<<< end STUDIO  >>>>>>>>>>>>>>>>>>>>>>>> */
 
+/* <<<<<<<<<<<<<<<<<<<<<<<<  PORTFOLIO  >>>>>>>>>>>>>>>>>>>>>>>> */
+/* <<<<<<<<<<<<  MAIN  >>>>>>>>>>>> */
 
+.btm-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+.btm-link:focus,
+.btm-link:active,
+.btm-link:hover {
+  background: var(--accent-color);
+  color: #ffffff;
+}
 
+.work-subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
 
-
-/*
-При наведении на кнопки курсор должен становиться ладошкой. 
-как при наведении на ссілки
-
-Там где ховер и фокус для кнопок вот такую команду добавь cursor: pointer;
-
-Кнопка - єто по умолчанию интерактивній єлемент. Ховер и фокус ставить.
+.portfolio-list .text {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+/* <<<<<<<<<<<<  end MAIN  >>>>>>>>>>>> */
+/* <<<<<<<<<<<<<<<<<<<<<<<<  end PORTFOLIO  >>>>>>>>>>>>>>>>>>>>>>>> */
