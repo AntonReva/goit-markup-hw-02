@@ -2,11 +2,12 @@
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
+  --primary-wight-color: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  background-color: var(--primary-wight-color);
   color: var(--primary-text-color);
 }
 
@@ -56,7 +57,7 @@ a {
 }
 
 .hero-button {
-  color: #ffffff;
+  color: var(--primary-wight-color);
   background: var(--accent-color);
   border-radius: 4px;
   font-weight: bold;
@@ -84,9 +85,8 @@ a {
   line-height: 1.364;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--primary-wight-color);
 }
-
 /* <<<<<<<<<<<< end HERO  >>>>>>>>>>>> */
 
 /* <<<<<<<<<<<<  OUR PRIORITY  >>>>>>>>>>>> */
@@ -98,6 +98,7 @@ a {
   text-transform: uppercase;
   color: var(--primary-text-color);
 }
+
 .priority-text {
   font-style: normal;
   font-weight: normal;
@@ -119,7 +120,6 @@ a {
 /* <<<<<<<<<<<<  end WHAT A WE DOING  >>>>>>>>>>>> */
 
 /* <<<<<<<<<<<<  OUR TEAM  >>>>>>>>>>>> */
-
 .team-title {
   font-weight: bold;
   font-size: 36px;
@@ -127,6 +127,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -134,6 +135,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 .team-text {
   font-weight: normal;
   font-size: 16px;
@@ -154,8 +156,9 @@ a {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--primary-wight-color);
 }
+
 .footer-link {
   font-style: normal;
   font-weight: normal;
@@ -169,7 +172,6 @@ a {
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<  PORTFOLIO  >>>>>>>>>>>>>>>>>>>>>>>> */
 /* <<<<<<<<<<<<  MAIN  >>>>>>>>>>>> */
-
 .btm-link {
   font-weight: 500;
   font-size: 16px;
@@ -178,11 +180,12 @@ a {
   color: var(--primary-text-color);
   cursor: pointer;
 }
+
 .btm-link:focus,
 .btm-link:active,
 .btm-link:hover {
   background: var(--accent-color);
-  color: #ffffff;
+  color: var(--primary-wight-color);
 }
 
 .work-subtitle {
