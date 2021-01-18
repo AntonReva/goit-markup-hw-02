@@ -3,52 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <header>
+<body class="body">
+                    <!------------  HEADER ------------>
+    <header class="header">
         <nav>
-            <a href="#"><img src="./img/WebStudio.svg" alt="логотип"></a>
-            <ul>
-                <li>
-                    <a href="#">Студия</a>
+            <a href="index.html"><img src="./img/WebStudio.svg" alt="логотип"></a>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Студия</a>
                 </li>
-                <li>
-                    <a href="#">Портфолио</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Портфолио</a>
                 </li>
-                <li>
-                    <a href="#">Контакты</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Контакты</a>
                 </li>
             </ul>
         </nav>
-        <address>
-            <ul>
-                <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <address class="address">
+            <ul class="address-list">
+                <li class="address-item">
+                    <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <li class="address-item">
+                    <a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>
     </header>
+                    <!------------  end HEADER ------------>
     <main>
         <section>
+            <h1 hidden>Portfolio</h1>
             <ul>
                 <li>
-                    <a href="">Все</a>
+                    <button type="button">Все</button>
                 </li>
                 <li>
-                    <a href="">Веб-сайты</a>
+                    <button type="button">Веб-сайты</button>
                 </li>
                 <li>
-                    <a href="">Приложения</a>
+                    <button type="button">Приложения</button>
                 </li>
                 <li>
-                    <a href="">Дизайн</a>
+                    <button type="button">Дизайн</button>
                 </li>
                 <li>
-                    <a href="">Маркетинг</a>
+                    <button type="button">Маркетинг</button>
                 </li>
             </ul>
             <ul>
@@ -118,8 +127,8 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="#"><img src="./img/WebStudio.svg" alt="логотип"></a>
+    <footer class="footer">
+        <a href="index.html"><img src="./img/WebStudio.svg" alt="логотип"></a>
         <address>
             <ul>
                 <li>
@@ -136,7 +145,4 @@
     </footer>
 </body>
 </html>
-
-
-
 
